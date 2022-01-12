@@ -14,9 +14,9 @@ block size in bytes.
 Examples:
 
 ```python
-import gadget_reader as Gr \
-gr = Gr.Gadget_reader('/path/to/gadget/files.0') \
-gr.read_header(verbose=True) \
-gr.print_npart_all_files() \
+import gadget_reader as Gr
+gr = Gr.Gadget_reader('/path/to/gadget/files.0')
+gr.read_header(verbose=True)
+gr.print_npart_all_files()
 pos = gr.read_positions_all_files()
 ```
